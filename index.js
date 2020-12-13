@@ -4,9 +4,13 @@ var shoot = [
 	'scissors'
 ];
 
+
+handleClick = (num) => {
+	
+}
+
 const random = Math.floor(Math.random() * shoot.length);
 console.log(random, shoot[random]);
-
 
 document.getElementById('userInput').innerHTML = userInput
 
