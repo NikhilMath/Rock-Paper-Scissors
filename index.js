@@ -4,15 +4,14 @@ var shoot = [
 	'scissors'
 ];
 
-
-handleClick = (num) => {
-	
-}
+// handleClick = (num) => {
+// 	if
+// }
 
 const random = Math.floor(Math.random() * shoot.length);
 console.log(random, shoot[random]);
 
-document.getElementById('userInput').innerHTML = userInput
+document.getElementById('userInput').innerHTML = choice()
 
 // handleClick = (choice) => {
 // 	if (choice === '') {
@@ -23,11 +22,6 @@ document.getElementById('userInput').innerHTML = userInput
 // 		document.getElementById('rightside').innerHTML = rightSide;
 // 	}
 // };
-
-
-
-
-
 
 // if (userChoice === 'paper') {
 // 	if (computerChoice === 'rock') {
@@ -48,9 +42,6 @@ document.getElementById('userInput').innerHTML = userInput
 // 	}
 // }
 
-
-
-
 // psudo code
 // Computers choice
-// who wins the laws. 
+// who wins the laws.
