@@ -2,33 +2,38 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RPS</title>
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <h1>Rock, Paper, Scissors</h1>
+  </header>
 
-  <h1>Rock, Paper, Scissors</h1>
-  <h2>Choose Your Option</h2>
-  <button class="bet" id="rock" onclick="choice('Rock')">Rock</button>
-  <button class="bet" id="paper" onclick="choice('Paper')">Paper</button>
-  <button class="bet" id="scissors" onclick="choice('Scissors')">Scissors</button>
-
-
-  <div>Your choice is:
-    <span id="userInput"></span>
-  </div>
-  <div>Computer's Random Choice:
-    <span id="computerInput"></span>
+  <div class="scores">
+    <div id="computer_score_label" class="team">PLAYER</div>
+    <div id="player_score_label" class="team">COMPUTER</div>
+    <span id="player_score">0</span> - <span id="computer_score">0</span>
   </div>
 
-  <h2>Press here to play the computer</h2>
-  <button id="shoot">Restart</button>
+<div class="options">
+    <div id="rock-pick" class="options">
+      <img src="images/rock.jpeg" alt="rock picture">
+    </div>
+    <div id="paper-pic" class="options">
+      <img src="images/paper.jpeg" alt="paper picture">
+    </div>
+    <div id="scissor-pic" class="options">
+      <img src="images/scissors.jpeg" alt="scissor picture">
+    </div>
+</div>
 
-
-  <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 
 </html>

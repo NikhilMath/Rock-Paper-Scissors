@@ -1,4 +1,22 @@
+* {
+  font-family: 'Langar', cursive;
+}
+
+header {
+  background-color: lightblue;
+  text-align: center;
+  font-size: larger; 
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  background: burlywood;
-  margin: 5rem;
+  background-color: lightskyblue;
+
+  
+}
+
+img {
+  width: 130px;
+  height: auto;
 }
