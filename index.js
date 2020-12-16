@@ -1,47 +1,17 @@
-var shoot = [
-	'rock',
-	'paper',
-	'scissors'
+let options = [
+	'Rock',
+	'Paper',
+	'Scissors'
 ];
 
-// handleClick = (num) => {
-// 	if
-// }
+let computerChoice = options[Math.floor(Math.random() * 3)]; 
 
-const random = Math.floor(Math.random() * shoot.length);
-console.log(random, shoot[random]);
 
-document.getElementById('userInput').innerHTML = choice()
+function choice(userChoice) {
+	document.getElementById('userInput').innerHTML = userChoice
+	document.getElementById('computerInput').innerHTML = computerChoice
+}
 
-// handleClick = (choice) => {
-// 	if (choice === '') {
-// 		leftSide += num;
-// 		document.getElementById('leftside').innerHTML = leftSide;
-// 	} else {
-// 		rightSide += num;
-// 		document.getElementById('rightside').innerHTML = rightSide;
-// 	}
-// };
 
-// if (userChoice === 'paper') {
-// 	if (computerChoice === 'rock') {
-// 		return 'paper wins';
-// 	} else {
-// 		if (computerChoice === 'scissors') {
-// 			return 'scissors wins';
-// 		}
-// 	}
-// 	if (userChoice === 'scissors') {
-// 		if (computerChoice === 'rock') {
-// 			return 'rock wins';
-// 		} else {
-// 			if (computerChoice === 'paper') {
-// 				return 'scissors wins';
-// 			}
-// 		}
-// 	}
-// }
-
-// psudo code
-// Computers choice
-// who wins the laws.
+if userChoice === computer
+	
