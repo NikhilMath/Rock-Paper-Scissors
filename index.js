@@ -39,15 +39,17 @@ function match (userChoice) {
 
 function win (userChoice, computerChoice) {
 	playerScore++;
+	player_score.innerHTML = playerScore;
 }
 
 function lose (userChoice, computerChoice) {
 	computerScore++;
+	computer_score.innerHTML = computerScore;
 }
 
 function draw (userChoice, computerChoice) {}
 
-function main () {
+function main_menu () {
 	rock_div.addEventListener('click', function () {
 		match('rock');
 	});
@@ -55,8 +57,8 @@ function main () {
 		match('paper');
 	});
 	scissors_div.addEventListener('click', function () {
-		match('scissor');
+		match('scissors');
 	});
 }
 
-main();
+main_menu();
